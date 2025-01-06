@@ -2,8 +2,8 @@ import numpy as np
 import pandas as pd
 
 # Load datasets
-True_news = pd.read_csv(r"C:\Users\diaca\Desktop\apna alpha\spam news detection\True1.csv")
-Fake_news = pd.read_csv(r"C:\Users\Admin\Desktop\internship plasmid\Fake.csv")
+True_news = pd.read_csv(r"C:\Users\diaca\Desktop\plasmid internship final\True.csv")
+Fake_news = pd.read_csv(r"C:\Users\diaca\Desktop\plasmid internship final\Fake.csv")
 
 # Add labels
 True_news["label"] = 0
